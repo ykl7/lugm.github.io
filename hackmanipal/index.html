@@ -4,7 +4,7 @@
 
 <head>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
 
 	<base href="">
 	<meta charset="utf-8" />
@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abel:400|Source+Code+Pro:200,300,400,500,600,700,900" />
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/countdown.css">
 
 	<script type="text/javascript" href="scripts/main.js"></script>
 	<script type="text/javascript" href="scripts/common.js"></script>
@@ -777,9 +778,28 @@
 												<div class="sqs-block embed-block sqs-block-embed" data-block-json="&#123;&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;html&quot;:&quot;&lt;center&gt;\n&lt;div id=\&quot;countdown\&quot;&gt;\n&lt;iframe src=\&quot;https://freesecure.timeanddate.com/countdown/i5g58f8f/n250/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs200/szw576/szh243/iso2016-12-03T09:00:00\&quot; allowTransparency=\&quot;true\&quot; frameborder=\&quot;0\&quot; width=\&quot;393\&quot; height=\&quot;105\&quot;&gt;&lt;/iframe&gt;\n&lt;/div&gt;&lt;/center&gt;\n&quot;,&quot;resolvedBy&quot;:&quot;manual&quot;,&quot;resolved&quot;:true&#125;" data-block-type="22" id="block-yui_3_17_2_2_1478447187368_81457">
 													<div class="sqs-block-content">
 														<center>
-															<div id="countdown">
-																<iframe src="https://freesecure.timeanddate.com/countdown/i5g58f8f/n250/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs200/szw576/szh243/iso2017-04-02T09:00:00?wmode=opaque" allowTransparency="true" width="480" data-embed="true" frameborder="0" height="105"></iframe>
+															<div id="clockdiv">
+																<div>
+																    <span class="days"></span>
+																    <div class="smalltext">Days</div>
+																  </div>
+																  <div>
+																    <span class="hours"></span>
+																    <div class="smalltext">Hours</div>
+																  </div>
+																  <div>
+																    <span class="minutes"></span>
+																    <div class="smalltext">Minutes</div>
+																  </div>
+																  <div>
+																    <span class="seconds"></span>
+																    <div class="smalltext">Seconds</div>
+																  </div>
 															</div>
+
+															<script src="scripts/countdown.js"></script>
+
+															
 														</center>
 													</div>
 												</div>
