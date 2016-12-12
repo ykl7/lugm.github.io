@@ -19683,8 +19683,18 @@ html.squarespace-cameron .yui3-lightbox2 .sqs-lightbox-overlay {
     pointer-events: none
 }
 
-div#countdown {
-    pointer-events: none
+@media  (min-width: 768px) and (max-width: 979px){
+    #countdown {
+        pointer-events: none
+         margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+        width: 979px !important;
+        height: 550px !important;
+        position: absolute !important;
+        align-content: center !important;
+    }
 }
+
 
 
