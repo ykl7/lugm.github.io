@@ -378,6 +378,12 @@
 	{
 		text-decoration: none;
 	}
+	.menu-drawer li a:hover
+	{
+		color: #444444;
+		text-decoration: underline;
+		transition: color 0.2s ease-in-out;
+	}
 	.bars
 	{
 		margin-right: 7px;
@@ -474,6 +480,14 @@
 		text-decoration: none;
 		display: block;
 		cursor: pointer;
+		color: #212121;
+	}
+
+	.nav-items li a:hover
+	{
+		color: #444444;
+		text-decoration: underline;
+		transition: color 0.2s ease-in-out;
 	}
 
 	.fullscreen-bg {
