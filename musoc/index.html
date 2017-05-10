@@ -1,135 +1,194 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>MuSoC</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body>
 
-    <!-- Wrapper -->
-    <div id="wrapper" class="divided">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- One -->
-        <section class="banner onload-image-fade-in onload-content-fade-right style1 fullscreen orient-center image-position-center blue">
+    <title>Manipal University Summer of Code</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            <div class="menu-drawer">
-                <li><a class="close"><i class="fa fa-times" aria-hidden="true"></i></a></li>
-                <li><a href="#s1">About</a></li>
-                <li><a href="#s3">Guidelines</a></li>
-                <li><a href="#timeline">Timeline</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top">
+
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Manipal University Summer Of Code</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#guidelines">Guidelines</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#portfolio">Projects</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#timeline">Timeline</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
 
-            <div class="fullscreen-bg">
-                <video loop muted autoplay poster="images/banner.jpg" class="fullscreen-bg__video">
+        <header>
+            <div class="header-content">
+                <div class="header-content-inner">
+                    <h1 id="homeHeading"><img height="80" src="img/logo.png" /></h1>
+                    <hr>
+                    <p>Manipal University Summer of Code is a local program focused on involving more student developers with open source software development. Students work with a mentor on a 6 week programming project during their break from school.</p>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Know More</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">What do you gain?</h2>
+                        <hr class="light">
+                        <p class="text-faded">As a part of Manipal University Summer of Code, student participants are paired with a mentor on a suggested project idea, gaining exposure to real-world software development and techniques. Students have the opportunity to spend the break between their school semesters, gaining valuable experience while working in areas related to their interests. The program is designed to give students a headstart for the prestigious Google Summer of Code and win exciting goodies from various Open Source organizations. In turn, the mentors are able to identify and bring in new developers who implement new features and hopefully continue to contribute to open source even after the program is over. Most importantly, more code is created and released for the use and benefit of all.</p>
+                        <a href="#timeline" class="page-scroll btn btn-default btn-xl sr-button">Timeline</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">How does it work?</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                            <h3>Apply</h3>
+                            <p class="text-muted">Interested students propose a project to work on.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+                            <h3>Code</h3>
+                            <p class="text-muted">Accepted students spend the summer coding with guidance from a mentor.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                            <h3>Share</h3>
+                            <p class="text-muted">Submit your code for the world to see.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-pencil text-primary sr-icons"></i>
+                            <h3>Blog</h3>
+                            <p class="text-muted">Let the world know about the experience and all that you've learnt!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
                     
-                    <source src="background_coding_video.mp4" type="video/mp4">
+                    
+                    <div class="col-lg-5 col-md-5">
+                            <h2 class="section-heading">Students</h2>
+                            <p class="text-faded">Students contact the mentors they want to work with and write up a project proposal for the summer. Student proposals can revolve around one of the suggested project ideas, or they can come up with new ideas, discussing all aspects of the same with the mentors. If accepted, students spend a few days integrating and bonding with the guides prior to the start of coding. Students then have 6 weeks to code, meeting the deadlines agreed upon with their mentors.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-lg-offset-2 col-md-offset-2">
+                            <h2 class="section-heading">Mentors</h2>
+                            <p class="text-faded">Experienced developers are selected as mentors, and they suggest project ideas. During the proposal period, they discuss with students about various proposals and work that can be done plausibly in the given timeline. Mentors help keep students on track to achieving the goals outlined in the proposal.</p>
+                        </div>
 
-                    </video>
+
+                    
                 </div>
-                <nav>
-                    <div class="logo">
-                        <a class="bars"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a><h3 class="logo-title">Manipal University Summer of Code</h3>
-                    </div>
-                    <div class="nav-items">
-                        <li><a href="#s1">About</a></li>
-                        <li><a href="#s3">Guidelines</a></li>
-                        <li><a href="#timeline">Timeline</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </div>
-                </nav>
-                <div class="mainArea">
-
-                    <div class="text">
-                        <center><img height="80" src="images/logo.png" /></center>
-                        Manipal University Summer of Code is a local program focused on involving more student developers with open source software development. Students work with a mentor on a 6 week programming project during their break from school.
-
-                    </div>
-                    <div class="other">
-
+            </div>
+        </section>
+        <section id="guidelines">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Guidelines</h2>
+                        <hr class="primary">
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="row">&nbsp;</div>
+            <div class="container">
+                
 
-
-            <section class="wrapper style1 align-center">
-                <div class="inner">
-                    <div class="index align-left">
-                        <section id="s1">
-                                <header>
-                                    <h2>How it works?</h2>
-                                </header>
-                                <div class="content">
-                                    <ul>
-                                        <li><h3><b>Apply</b></h3><h4>Interested students propose a project to work on.</h4></li>
-                                        <li><h3><b>Code</b></h3><h4>Accepted students spend the summer coding with guidance from a mentor.</h4></li>
-                                        <li><h3><b>Share</b></h3><h4>Submit your code for the world to see!</h4></li>
-                                    </ul>
-                                </div>
-                        </section>
-                        <section id="s3">
-                            <header>
-                                <h2 style="font-size:1.8rem;">What do you gain?</h2>
-                            </header>
-                            <div class="content">
-                                <dl>
-                                    As a part of Manipal University Summer of Code, student participants are paired with a mentor on a suggested project idea, gaining exposure to real-world software development and techniques. Students have the opportunity to spend the break between their school semesters, gaining valuable experience while working in areas related to their interests. The program is designed to give students a headstart for the prestigious Google Summer of Code and win exciting goodies from various Open Source organizations. 
-
-In turn, the mentors are able to identify and bring in new developers who implement new features and hopefully continue to contribute to open source even after the program is over. Most importantly, more code is created and released for the use and benefit of all.
-                                </dl>
-
-                            </div>
-                        </section>
-                        <section id="s2" class="whiteBold">
-                            <header>
-                                <h2>More</h2>
-                            </header>
-                            <div class="content">
-                                <dl>
-                                    <dt>Students</dt>
-                                    <dd>
-                                        <p>Students contact the mentors they want to work with and write up a project proposal for the summer. Student proposals can revolve around one of the suggested project ideas, or they can come up with new ideas, discussing all aspects of the same with the mentors. If accepted, students spend a few days integrating and bonding with the guides prior to the start of coding. Students then have 6 weeks to code, meeting the deadlines agreed upon with their mentors.</p>
-                                    </dd>
-                                    <dt>Mentors</dt>
-                                    <dd>
-                                        <p>Experienced developers are selected as mentors, and they suggest project ideas. During the proposal period, they discuss with students about various proposals and work that can be done plausibly in the given timeline. Mentors help keep students on track to achieving the goals outlined in the proposal.</p>
-                                    </dd>
-                                </dl>
-
-                            </div>
-                        </section>
-
-
-                        <section id="s3">
-                            <header>
-                                <h2>Guidelines</h2>
-                            </header>
-                            <div class="content">
-                                <ol type="number">
-                                    <li>Students must be enrolled in any program at Manipal Institute of Technology to be eligible</li>
-                                    <li>A student can submit  maximum of 3 proposals.</li>
-                                    <li>Documentation for the code written is important, and must be mentioned in the proposal</li>
-                                    <li>All code written shall be made available on GitHub, as part of the Open Source Initiative</li>
-                                    <li>Communication with mentors shall occur over Slack</li>
-                                    <li>As part of the application process, if you don't have one, please create a <a href="https://www.github.com">GitHub</a> account.</li>
-                                </ul>
-                            </div>
-                        </section>
-
+                    <ol type="number" class="col-lg-7 col-md-7 col-lg-offset-3 col-md-offset-3 guidelinesList">
+                        <li>Students must be enrolled in any program at Manipal Institute of Technology to be eligible</li>
+                        <li>A student can submit a maximum of 3 proposals.</li>
+                        <li>Documentation for the code written is important, and must be mentioned in the proposal</li>
+                        <li>All code written shall be made available on GitHub, as part of the Open Source Initiative</li>
+                        <li>Communication with mentors shall happen over Slack.</li>
+                        <li>As part of the application process, if you don't have one, please create a <a href="https://github.com">GitHub</a> account.</li>
+                    </ul>
+                
+            </div>
+        </section>
+        <section class="bg-primary" id="timeline">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Timeline</h2>
+                        <hr class="light">
                     </div>
-
-                    <section id="timeline">
-                        
-                        <header>
-                            <h2 class="white">Timeline</h2>
-                        </header>
-                        <div class="table-wrapper">
-                            <table>
+                </div>
+            <div class="container">
+                <table class="table">
                                 <tbody>
                                     <tr>
                                         <td><h4><b>Program Announced</b></h4><em>May 9, 2017</em></td>
@@ -169,35 +228,53 @@ In turn, the mentors are able to identify and bring in new developers who implem
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
-                    </section>
+            </div>
+        </section>
+            
 
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-2 col-lg-offset-3 text-center contactLogos">
+                        <i class="fa fa-github fa-3x sr-contact"></i>
+                        
+                    </div>
+                    <div class="col-lg-2 text-center contactLogos">
+                        <a target="_blank" href="https://www.facebook.com/events/690258071161473/"><i class="fa fa-facebook fa-3x sr-contact"></i></a>
+                        
+                    </div>
+                    <div class="col-lg-2 text-center ">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        
+                    </div>
                 </div>
+            </div>
+        </section>
 
-            </section>
-
-
-            <footer class="wrapper style1 align-center">
-            <h2 id="contact">Get in touch</h2>
-                <div class="inner">
-                    <ul class="icons"">
-                        <li><a href="https://www.facebook.com/events/690258071161473/" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="https://www.github.com/lugm" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="mailto:hello@lugm.xyz" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-                    </ul>
-                    <p>Presented with <i class="fa fa-heart" style="color: red;"></i> by LUG and GDG Manipal, 2017</p>
+        <aside class="bg-dark">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>Happy Coding!</h2>
+                    <h4>With <i class="fa fa-heart red"></i> from GDG and LUG.</h4>
                 </div>
-            </footer>
+            </div>
+        </aside>
 
-        </div>
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-        
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+        <!-- Theme JavaScript -->
+        <script src="js/creative.min.js"></script>
+
     </body>
+
     </html>
