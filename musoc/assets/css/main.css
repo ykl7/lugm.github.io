@@ -377,6 +377,7 @@
 	{
 		margin-right: 7px;
 		display: none;
+
 	}
 
 	.whiteBold
@@ -417,6 +418,7 @@
 	{
 		position: relative;
 		width: 40%;
+		min-width: 500px;
 		font-size:22px;
 		top:30px;
 		float:left;
@@ -484,7 +486,9 @@
 		left: 0;
 		min-width: 100%;
 		min-height: 100vh;
-
+		right: 0;
+		bottom: 0;
+		margin:auto;
 	}
 
 
@@ -925,6 +929,8 @@
 		{
 			display: block;
 			height: 0;
+			float:left;
+			
 		}
 
 		.nav-items
@@ -1155,7 +1161,18 @@
 	}
 
 	@media screen and (max-width: 736px) {
-
+		#s1,#s2,#s3
+		{
+			padding: 20px;
+		}
+		.mainArea
+		{
+			padding: 0;
+		}
+		.text
+		{
+			width: 100% !important;
+		}
 		.row > * {
 			padding: 0 0 0 2rem;
 		}
@@ -1370,7 +1387,18 @@
 	}
 
 	@media screen and (max-width: 480px) {
-
+		#s1,#s2,#s3
+		{
+			padding: 20px;
+		}
+		.mainArea
+		{
+			padding: 0;
+		}
+		.text
+		{
+			width: 100% !important;
+		}
 		.row > * {
 			padding: 0 0 0 2rem;
 		}
@@ -1585,7 +1613,18 @@
 	}
 
 	@media screen and (max-width: 360px) {
-
+		#s1,#s2,#s3
+		{
+			padding: 20px;
+		}
+		.mainArea
+		{
+			padding: 0;
+		}
+		.text
+		{
+			width: 100% !important;
+		}
 		.row > * {
 			padding: 0 0 0 2rem;
 		}
