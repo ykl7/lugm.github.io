@@ -70,6 +70,16 @@ aside {
   margin-bottom: 20px;
 }
 
+.logo-holder
+{
+  width: 300px;
+  height: 100px;
+  background: url('../img/logo.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .guidelinesList
 {
   font-size: 18px;
@@ -182,8 +192,8 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/bg.jpg');
+  background-position: left;
+  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.1)),url('../img/bg.jpg');
   text-align: center;
   color: white;
 }
