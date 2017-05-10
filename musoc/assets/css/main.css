@@ -930,7 +930,7 @@
 			display: block;
 			height: 0;
 			float:left;
-			
+
 		}
 
 		.nav-items
@@ -1165,6 +1165,15 @@
 		{
 			padding: 20px;
 		}
+		.bars
+		{
+			position: relative;
+			top:5px;
+		}
+		.logo-title
+		{
+			font-size: 25px;
+		}
 		.mainArea
 		{
 			padding: 0;
@@ -1397,7 +1406,7 @@
 		}
 		.text
 		{
-			width: 100% !important;
+			width: 100vw !important;
 		}
 		.row > * {
 			padding: 0 0 0 2rem;
@@ -1623,7 +1632,7 @@
 		}
 		.text
 		{
-			width: 100% !important;
+			width: 100vw !important;
 		}
 		.row > * {
 			padding: 0 0 0 2rem;
