@@ -354,4 +354,28 @@
 
 	});
 
+	//SMOOTH SCROLL
+
+	$(document).on('click', '.nav-items a', function(event){
+				event.preventDefault();
+
+				$('html, body').animate({
+					scrollTop: $( $.attr(this, 'href') ).offset().top
+				}, 500);
+			});
+
+	$(document).on('click','.bars',function(){
+
+		$(".menu-drawer").animate({left : '0px'},700);
+
+	});
+
+	$(document).on('click','.menu-drawer li',function(){
+			$(".menu-drawer").animate({left : '-300px'},700);		
+			$('html, body').animate({
+					scrollTop: $( $.attr(this, 'href') ).offset().top
+				}, 500);
+			
+	});
+
 })(jQuery);
