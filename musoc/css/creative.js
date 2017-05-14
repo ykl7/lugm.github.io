@@ -10,6 +10,8 @@
         event.preventDefault();
     });
 
+    
+
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -61,8 +63,6 @@
         }
     });
 
-<<<<<<< 975a1b34eb9545ea70183922edf59c58f0dbc242
-=======
     var mentors = [
 
     {
@@ -515,5 +515,4 @@
 
 
 
->>>>>>> Minor changes
 })(jQuery); // End of use strict
