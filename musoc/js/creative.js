@@ -116,7 +116,7 @@
      "mobile": "+91 809-513-8333",
      "whatsapp": "",
      "email": "avikantsainidbz@gmail.com",
-     "github": "github.com/avikantz",
+     "github": "https://github.com/avikantz",
      "domain": "iOS, UI/UX, Graphics, Memes",
      "languages": "Swift, Objective C, Python"     
  },
@@ -127,7 +127,7 @@
      "mobile": "9342579059",
      "whatsapp": "",
      "email": "aditya.s.walvekar@gmail.com",
-     "github": "https://GitHub/adwalvekar",
+     "github": "https://github.com/adwalvekar",
      "domain": "Web development, Neural Networks",
      "languages": "Python, PHP, Java, C, JavaScript"     
  },
@@ -149,7 +149,7 @@
      "mobile": "9521092155",
      "whatsapp": "9901693769",
      "email": "mehul.guptagm@gmail.com",
-     "github": "github.com/therealssj",
+     "github": "https://github.com/therealssj",
      "domain": "WebDev",
      "languages": "PHP, Python"     
  },
@@ -170,7 +170,7 @@
 
      "mobile": "7026827800 ",
      "whatsapp": "",
-     "email": "raamish.malik@gmail.com ",
+     "email": "https://raamish.malik@gmail.com ",
      "github": "github.com/raamish",
      "domain": "Backend(Python) , ML",
      "languages": "C, C++, Python"     
@@ -204,7 +204,7 @@
      "mobile": "9916324321",
      "whatsapp": "09916324321",
      "email": "arjun.narayan46@gmail.com",
-     "github": "Github.com/TacticalGoat",
+     "github": "https://github.com/TacticalGoat",
      "domain": "Web, App",
      "languages": "Python C# C++"     
  },
@@ -215,7 +215,7 @@
      "mobile": "8123653584",
      "whatsapp": "",
      "email": "chinmayn96@gmail.com",
-     "github": "github.com/chinmay-n",
+     "github": "https://github.com/chinmay-n",
      "domain": "Linux",
      "languages": "Python,C"     
  },
@@ -259,7 +259,7 @@
      "mobile": "08123199279",
      "whatsapp": "",
      "email": "sakethkaparthi@gmail.com",
-     "github": "www.github.com/sakethkaparthi",
+     "github": "https://github.com/sakethkaparthi",
      "domain": "Android, Google cardboard VR",
      "languages": "Java, python"     
  },
@@ -270,7 +270,7 @@
      "mobile": "9964356899",
      "whatsapp": "",
      "email": "bhattpunit96@gmail.com",
-     "github": "github.com/punitbhatt",
+     "github": "https://github.com/punitbhatt",
      "domain": "ML, neural network, Android",
      "languages": "Python, C++, Java"     
  },
@@ -281,7 +281,7 @@
      "mobile": "9742931741",
      "whatsapp": "3125932465",
      "email": "manky.bansal@gmail.com",
-     "github": "github.com/mankybansal",
+     "github": "https://github.com/mankybansal",
      "domain": "WebDev, Android",
      "languages": "Java, PHP, C++, C, HTML, JS, CSS"     
  }
@@ -477,6 +477,16 @@
      "idea2": "This project involves building a chat bot (on Facebook messenger) that can parse and understand basic monetary transactions like \"Spent $32 on ????? today\", \"Borrowed $50 from ?????\", \"????? Owes me some money\" (sends reminder to that person), \"Transfer balance to ????\" (Pay money you owe), etc and will log everything for you so you can see how much you spent and keep track of money you lent, or borrowed. Involves understanding of language parsing, chatbots, Facebook messenger API.",
      "title3": "SentiBox UI/UX",
      "idea3": "SentiBox is a UI/UX project which involves developing a web framework for being able to create an online personal scrapbook with different paper materials, photos, post-it notes, etc. Users should be allowed to upload pictures, scale, rotate and place it in their online journal. There would be different handwritten fonts as well. This project would require knowledge of CSS, JS (A lot) , HTML."
+ },
+ {
+
+     "name": "Sukriti Paul",
+     "title1": "Analysis of Log files and box files of the Tesseract OCR for Indic scripts and an API for Indic-Script Character Recognition",
+     "idea1": "Optical Character Recognition plays a vital role in fields like pattern recognition,text mining, computer vision and text to speech analysis-to name a few. While training Tesseract 3.03-3.05 (OCR) for Indic scripts, there are ambiguities regarding a few factors,as stated below:<br><br>1.Number of training files to be considered<br><br>2.Should the numeral training files be separate?<br><br>3.Although there is a limit of 64 font files for these versions, is it better to mix different fonts for  a script, within the same training file?<br><br>4.Will modifying the dictionary help in case of special characters?Problem Statement : The aim is to infer the most optimal and generalised strategy  to train the OCR by using log and box files and to build on it by making an API for recognition of such fonts(obtaining their UNICHAR values in .txt).This could be further used in a spelling corrector, transliteration or translation system or for learning new languages.<br><br>(Owing to the lack of comparative analysis of results obtained on  training the tesseract for Indic scripts, we will be considering pre-processed images or scene text of two such contrasting scripts.Any number of fonts under the two scripts can be used).<br><br>Pre-requisites:The student should have a basic knowledge of the Tesseract OCR,Python(Flask) and should be well versed with data retrieval, cleaning and visualisation using R.",
+     "title2": "Bio-Medical Android App based on Image Analysis of X-ray Images",
+     "idea2": "Although there exist extensive image processing techniques to analyse X-ray images using MATLAB,Octave,OpenCV or Scikit-Image ,this is aimed at analysing X-ray images almost instantaneously and simplistically, where the target user (doctor/patient) need not have extensive prior knowledge of image processing techniques.From a layman’s perspective, fractures,cracks ,cavities etc are easily viewable when the image is thresholded after de-noising it. The app certainly provides a platform for a lot of future work and can be extended to RGB or BGR images.<br><br>Problem statement:<br><br>a) To develop a robust algorithm comprising a segmented, thresholded and edge detected clear image, based on the parameters given by the user.The image samples need to be pre- processed (de-noised and enhanced)<br><br>b)To implement the algorithm on an Android platform display the results (final image).<br><br>Pre-requisites:The student should have a basic knowledge of Android Application Development, basic Image Processing concepts and their implementation via either OpenCV,MATLAB or Scikit-Image.",
+     "title3": "",
+     "idea3": ""
  }
  ];
 
