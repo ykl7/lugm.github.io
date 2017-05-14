@@ -71,7 +71,8 @@
         "email":"yklal95@gmail.com",
         "github":"https://github.com/ykl7",
         "domain":"NLP, ML, iOS, Flask",
-        "languages":"Python, Objective-C"
+        "languages":"Python, Objective-C",
+        "image": "https://ykl7.github.io/images/IMG_3531.jpg"
     },
     {
         "name":"Utkarsh Kashyap",
@@ -80,6 +81,7 @@
         "email":"utkarsh.k05@gmail.com",
         "github":"https://github.com/utkarsh5k",
         "domain":"ML",
+        "image": "https://avatars0.githubusercontent.com/u/12728102",
         "languages":"C, C++, Java, Python"
     },
     {
@@ -89,7 +91,8 @@
         "email":"sundersudarshan@gmail.com",
         "github":"https://github.com/sudarshansunder",
         "domain":"Android, Backend stuff, ML",
-        "languages":"C/C++, Java, JavaScript, Python, PHP"
+        "languages":"C/C++, Java, JavaScript, Python, PHP",
+        "image": "https://avatars0.githubusercontent.com/u/4697324"
     },
     {
         "name":"Bhargav Karanam",
@@ -98,7 +101,8 @@
         "email":"bhargav.karanam@gmail.com",
         "github":"https://github.com/bhargavkaranam",
         "domain":"WebDev",
-        "languages":"Node.JS, PHP, React JS"
+        "languages":"Node.JS, PHP, React JS",
+        "image": "https://avatars1.githubusercontent.com/u/8963298"
     },
     {
         "name":"Avikant Saini",
@@ -107,12 +111,14 @@
         "email":"avikantsainidbz@gmail.com",
         "github":"https://github.com/avikantz",
         "domain":"iOS, UI/UX, Graphics, Memes",
-        "languages":"Swift, Objective C, Python"
+        "languages":"Swift, Objective C, Python",
+        "image": "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/p320x320/17759909_1673815029300771_2852045656962401548_n.jpg?efg=eyJpIjoiYiJ9&oh=cb826aa1a599300cb6e174257cf0dcea&oe=59B204C4"
     },
     {
         "name":"Aditya Walvekar",
         "mobile":"9342579059",
         "whatsapp":"",
+        "image": "https://avatars0.githubusercontent.com/u/15139219",
         "email":"aditya.s.walvekar@gmail.com",
         "github":"https://github.com/adwalvekar",
         "domain":"Web development, Neural Networks",
@@ -125,6 +131,7 @@
         "email":"shivang.bharadwaj3@gmail.com",
         "github":"https://github.com/reficul31",
         "domain":"WebDev",
+        "image": "https://avatars1.githubusercontent.com/u/19486491",
         "languages":"JavaScript, Python"
     },
     {
@@ -134,6 +141,7 @@
         "email":"mehul.guptagm@gmail.com",
         "github":"https://github.com/therealssj",
         "domain":"WebDev",
+        "image": "https://avatars3.githubusercontent.com/u/8619106",
         "languages":"PHP, Python"
     },
     {
@@ -143,15 +151,17 @@
         "email":"aawaazdo@kartikarora.me",
         "github":"https://github.com/kartikarora",
         "domain":"Android, Full Stack Dev",
-        "languages":"Java, XML, Python, C, C++"
+        "image": "https://avatars3.githubusercontent.com/u/6591617",
+        "languages":"Java, XML, Python, Flask, Javascript, Material Design"
     },
     {
         "name":"Raamish Malik",
         "mobile":"7026827800 ",
         "whatsapp":"",
-        "email":"https://raamish.malik@gmail.com ",
+        "email":"https://raamish.malik@gmail.com",
         "github":"github.com/raamish",
         "domain":"Backend(Python) , ML",
+        "image": "https://avatars2.githubusercontent.com/u/13959641",
         "languages":"C, C++, Python"
     },
     {
@@ -161,6 +171,7 @@
         "email":"sid.kothiyal27@gmail.com",
         "github":"https://github.com/sidkothiyal",
         "domain":"Android, Python Applications, ROS, Machine Learning ",
+        "image": "https://avatars0.githubusercontent.com/u/15217079",
         "languages":"Python, C, C++, Java, XML"
     },
     {
@@ -170,6 +181,7 @@
         "email":"arora.ujjwal@gmail.com",
         "github":"https://www.github.com/azwreith",
         "domain":"WebDev, Android",
+        "image": "https://avatars3.githubusercontent.com/u/10354323",
         "languages":"JavaScript, PHP, Python, Java"
     },
     {
@@ -179,6 +191,7 @@
         "email":"arjun.narayan46@gmail.com",
         "github":"https://github.com/TacticalGoat",
         "domain":"Web, App",
+        "image": "https://avatars1.githubusercontent.com/u/7513294",
         "languages":"Python C# C++"
     },
     {
@@ -188,6 +201,7 @@
         "email":"chinmayn96@gmail.com",
         "github":"https://github.com/chinmay-n",
         "domain":"Linux",
+        "image": "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/p320x320/17759909_1673815029300771_2852045656962401548_n.jpg?efg=eyJpIjoiYiJ9&oh=cb826aa1a599300cb6e174257cf0dcea&oe=59B204C4",
         "languages":"Python,C"
     },
     {
@@ -196,16 +210,18 @@
         "whatsapp":"9449987703",
         "email":"sukritipaul05@gmail.com",
         "github":"https://github.com/JuOllie",
-        "domain":"  Image Processing, Computer Vision,Data Mining and Data Science, ML and PR, Android Dev, Tesseract,RHEL6.",
-        "languages":" C,C++,C#,Java, Python,R,Ruby, MATLAB (software). (Training the The OCR requires knowledge of shell scripting, and that doesn't really fall under a programming language;mentioned it nevertheless )."
+        "image": "https://avatars3.githubusercontent.com/u/19627929",
+        "domain":"mage Processing, Computer Vision & PR Data Mining & Data Science Android",
+        "languages":"C,C++,C#,Java, Ruby, Python and MATLAB"
     },
     {
         "name":"Ishan Handa",
         "mobile":"9731794141",
         "whatsapp":"",
         "email":"ishanhanda1@gmail.com",
-        "github":"https://github.com/ishaaann/",
+        "github":"https://github.com/ishaaann",
         "domain":"BackEnd , ML and Data Science",
+        "image": "https://avatars3.githubusercontent.com/u/14318248",
         "languages":"Python, C, C#, SQL, (Little Little) Javascript, R"
     },
     {
@@ -215,6 +231,7 @@
         "email":"jiteshjha96@gmail.com",
         "github":"https://github.com/jiteshjha",
         "domain":"WebDev, ML, Simulations",
+        "image": "https://avatars3.githubusercontent.com/u/10262106",
         "languages":"Javascript, Ruby, Python, C"
     },
     {
@@ -224,6 +241,7 @@
         "email":"sakethkaparthi@gmail.com",
         "github":"https://github.com/sakethkaparthi",
         "domain":"Android, Google cardboard VR",
+        "image": "https://avatars2.githubusercontent.com/u/7693606",
         "languages":"Java, python"
     },
     {
@@ -233,6 +251,7 @@
         "email":"bhattpunit96@gmail.com",
         "github":"https://github.com/punitbhatt",
         "domain":"ML, neural network, Android",
+        "image": "https://avatars1.githubusercontent.com/u/13984558",
         "languages":"Python, C++, Java"
     },
     {
@@ -241,6 +260,7 @@
         "whatsapp":"3125932465",
         "email":"manky.bansal@gmail.com",
         "github":"https://github.com/mankybansal",
+        "image": "https://avatars2.githubusercontent.com/u/12834184",
         "domain":"WebDev, Android",
         "languages":"Java, PHP, C++, C, HTML, JS, CSS"
     }
@@ -252,7 +272,7 @@
         "title1":"Simple ML library from scratch",
         "idea1":"A small C++ library that would contain few basic ML algorithms like Linear Regression, K-means Clustering and k-Nearest Neighbours (for the brave, Neural Nets). The library will be written from scratch, in C++, in an object oriented fashion, and shall contain all the required utility functions that are generally used in Data oriented problems, like loading and writing to CSV files, finding min/max/mean/mode etc, filling null values in a dataset. The algorithms itself will have 4 basic methods to train, test, predict and find the score of a test set. ",
         "title2":"Optimize distance between functions in a single text file",
-        "idea2":"There are large text files containing 1000+ lines of code, where there are various functions that call each other. Many times, the functions are poorly placed in the file and it requires a lot of scrolling to track functions calling each other. The aim of this project is to make an optimization tool that finds the best ordering of functions in a file based on the some metric that accurately represents the distance between functions, and rearranges them accordingly, thus enhancing readability of large codebases. ",
+        "idea2":"There are large text files containing 1000+ lines of code, where there are various functions that call each other. Many times, the functions are poorly placed in the file and it requires a lot of scrolling to track functions calling each other. The aim of this project is to make an optimization tool that finds the best ordering of functions in a file based on some metric that accurately represents the distance between functions, and rearranges them accordingly, thus enhancing readability of large codebases. ",
         "title3":"",
         "idea3":""
     },
@@ -262,8 +282,8 @@
         "idea1":"Dial a number on the watch and place a call from your phone. No need to take out the phone from pocket!",
         "title2":"Potato Library",
         "idea2":"Easy to use Utility library for Android",
-        "title3":"",
-        "idea3":""
+        "title3":"Android Permissions",
+        "idea3":"WebApp, RestAPI and Android App to list information about the permissions in the Android SDK"
     },
     {
         "name":"Shivang Bharadwaj",
@@ -456,12 +476,6 @@ else
 
  $.each(mentors,function(k,v){
 
-    $(".mentorsHolder").append('<div class="col-md-3 col-lg-3 col-sm-11 col-xs-11"> <div class="card"> <img class="card-img-top" src="http://rhythmanalysis.net/style/images/user-placeholder.jpg" width="auto" height="200" alt="Mentor Image"> <div class="card-block"> <h4 class="card-title text-muted">' + v.name + '</h4> <p class="card-text text-muted"><button data-name="' + v.name + '" class="btn btn-default btn-xl sr-button btn-projects">View Projects</button></p><p class="card-text"><small class="text-muted"><a target="_blank" href="' + v.github + '"><i class="fa fa-github fa-2x"></i></a><a target="_blank" href="tel:' + v.mobile + '"><i class="fa fa-phone fa-2x"></i></a><a target="_blank" href="mailto:' + v.email + '"><i class="fa fa-envelope fa-2x"></i></a></small></p></div></div></div>');
+    $(".mentorsHolder").append('<div class="col-md-3 col-lg-3 col-sm-11 col-xs-11"> <div class="card"> <div class="card-img-top" style="background:url(' + v.image + ');background-size:cover;background-position:center center;width:100%;height:200px;"></div> <div class="card-block"> <h4 class="card-title text-muted">' + v.name + '</h4> <p class="card-text text-muted"><button data-name="' + v.name + '" class="btn btn-default btn-xl sr-button btn-projects">View Projects</button></p><p class="card-text"><small class="text-muted"><a target="_blank" href="' + v.github + '"><i class="fa fa-github fa-2x"></i></a><a target="_blank" href="tel:' + v.mobile + '"><i class="fa fa-phone fa-2x"></i></a><a target="_blank" href="mailto:' + v.email + '"><i class="fa fa-envelope fa-2x"></i></a></small></p></div></div></div>');
 });
-
-
-
-
-
-
 })(jQuery); // End of use strict
