@@ -162,7 +162,7 @@
      "email": "aawaazdo@kartikarora.me",
      "github": "https://github.com/kartikarora",
      "domain": "Android, Full Stack Dev",
-     "languages": "Java, c, c++, python"     
+     "languages": "Java, XML, Python, C, C++"     
  },
  {
 
@@ -507,7 +507,7 @@ else
 
  $.each(mentors,function(k,v){
 
-    $(".mentorsHolder").append('<div class="col-md-3 col-lg-3 col-sm-11 col-xs-11"> <div class="card"> <img class="card-img-top" src="http://rhythmanalysis.net/style/images/user-placeholder.jpg" width="auto" height="200" alt="Mentor Image"> <div class="card-block"> <h4 class="card-title">' + v.name + '</h4> <p class="card-text"><button data-name="' + v.name + '" class="btn-info">View Details</button></p><p class="card-text"><small class="text-muted"><a target="_blank" href="' + v.github + '"><i class="fa fa-github fa-2x"></i></a><a target="_blank" href="tel:' + v.mobile + '"><i class="fa fa-phone fa-2x"></i></a><a target="_blank" href="mailto:' + v.email + '"><i class="fa fa-envelope fa-2x"></i></a></small></p></div></div></div>');
+    $(".mentorsHolder").append('<div class="col-md-3 col-lg-3 col-sm-11 col-xs-11"> <div class="card"> <img class="card-img-top" src="http://rhythmanalysis.net/style/images/user-placeholder.jpg" width="auto" height="200" alt="Mentor Image"> <div class="card-block"> <h4 class="card-title">' + v.name + '</h4> <p class="card-text"><button data-name="' + v.name + '" class="btn-info">View Projects</button></p><p class="card-text"><small class="text-muted"><a target="_blank" href="' + v.github + '"><i class="fa fa-github fa-2x"></i></a><a target="_blank" href="tel:' + v.mobile + '"><i class="fa fa-phone fa-2x"></i></a><a target="_blank" href="mailto:' + v.email + '"><i class="fa fa-envelope fa-2x"></i></a></small></p></div></div></div>');
 });
 
 
