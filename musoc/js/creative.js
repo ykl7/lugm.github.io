@@ -211,7 +211,7 @@
         "email":"sukritipaul05@gmail.com",
         "github":"https://github.com/JuOllie",
         "image": "https://avatars3.githubusercontent.com/u/19627929",
-        "domain":"mage Processing, Computer Vision & PR Data Mining & Data Science Android",
+        "domain":"Image Processing, Computer Vision & PR Data Mining & Data Science Android",
         "languages":"C,C++,C#,Java, Ruby, Python and MATLAB"
     },
     {
