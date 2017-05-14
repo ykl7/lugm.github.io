@@ -91,32 +91,16 @@ aside {
   margin-bottom: 10px;
 }
 
+
+
+
+
 .mentorHolder
 {
   height: 70px;
 }
 
 /*SIDENAV*/
-
-.sidenav::-webkit-scrollbar-track
-{
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: #F5F5F5;
-}
-
-.sidenav::-webkit-scrollbar
-{
-  width: 10px;
-  background-color: #F5F5F5;
-}
-
-.sidenav::-webkit-scrollbar-thumb
-{
-  background-color: #333333;
-  border: 2px solid #333333;
-}
-
-
 
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -131,21 +115,32 @@ aside {
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     color:#FFF;
     text-align: center;
-
 }
 
+.card .btn-info
+{
+  height: 30px;
+  width: 140px;
+  border:none;
+}
+
+.sidenav h4
+{
+  font-weight: bold;
+}
 .sidenav h4,.sidenav span
 {
   margin-left: 10px;
 }
-.sidenav h4
+
+#contact i
 {
-  font-size: 18px;
-  font-weight: bold;
+  color:#f2f2f2;
 }
+
 .sidenav span
 {
- font-size: 16px; 
+  font-weight: 600;
 }
 .sidenav .card
 {
@@ -155,11 +150,7 @@ aside {
   color:#212121;
 }
 
-.sidenav .section-heading
-{
-  margin-bottom: 20px;
-  font-size: 22px;
-}
+
 
 /* The navigation menu links */
 .sidenav a {
@@ -235,7 +226,7 @@ aside {
 
 .card i
 {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .card-block {
@@ -547,6 +538,7 @@ aside {
 
 
 /*CARD BOOTSTRAP*/
+
 
 .red
 {
