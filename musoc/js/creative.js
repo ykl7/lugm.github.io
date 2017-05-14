@@ -112,7 +112,7 @@
         "github":"https://github.com/avikantz",
         "domain":"iOS, UI/UX, Graphics, Memes",
         "languages":"Swift, Objective C, Python",
-        "image": "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-0/cp0/e15/q65/p320x320/17759909_1673815029300771_2852045656962401548_n.jpg?efg=eyJpIjoiYiJ9&oh=cb826aa1a599300cb6e174257cf0dcea&oe=59B204C4"
+        "image": "https://avatars1.githubusercontent.com/u/7699509"
     },
     {
         "name":"Aditya Walvekar",
