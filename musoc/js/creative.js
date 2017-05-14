@@ -159,7 +159,7 @@
         "mobile":"7026827800 ",
         "whatsapp":"",
         "email":"https://raamish.malik@gmail.com",
-        "github":"github.com/raamish",
+        "github":"https://github.com/raamish",
         "domain":"Backend(Python) , ML",
         "image": "https://avatars2.githubusercontent.com/u/13959641",
         "languages":"C, C++, Python"
